@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f377c434-5765-4c05-9db4-4be0201fa356" name="Default Changelist" comment="" />
+    <list default="true" id="f377c434-5765-4c05-9db4-4be0201fa356" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eee9245c-7b40-4815-a2c4-09003e7f5ab5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/eee9245c-7b40-4815-a2c4-09003e7f5ab5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload_folder/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload_folder/vsriram2.txt" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,6 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/file_upload_api$task.coverage" NAME="task Coverage Results" MODIFIED="1608477153385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/task$task.coverage" NAME="task Coverage Results" MODIFIED="1608470063636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
@@ -115,40 +124,61 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="167426409">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="109" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="109" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="processinguploads" value="1" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Database Element" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="42" />
+            <state relative-caret-position="-131">
+              <caret line="72" column="32" lean-forward="true" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1608469436942" expanded="true" signature="493:542" ph="..." />
-                <marker date="1608469436942" expanded="true" signature="2623:2624" ph="..." />
-                <marker date="1608469436942" expanded="true" signature="2623:2628" ph="..." />
-                <marker date="1608469436942" expanded="true" signature="3003:3005" ph="..." />
-                <marker date="1608469436942" expanded="true" signature="3312:3313" ph="..." />
+                <marker date="1608477026107" expanded="true" signature="514:563" ph="..." />
+                <marker date="1608477026107" expanded="true" signature="2462:2463" ph="..." />
+                <marker date="1608477026107" expanded="true" signature="2462:2467" ph="..." />
+                <marker date="1608477026107" expanded="true" signature="2812:2814" ph="..." />
+                <marker date="1608477026107" expanded="true" signature="3121:3122" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/templates/uploader.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="22" />
+            <state relative-caret-position="105">
+              <caret line="40" column="66" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -162,13 +192,9 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/uploader.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="40" column="66" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="66" />
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/upload_folder/OFL.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -191,15 +217,18 @@
       <dir>F:\myPrograms\Python\task</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/templates/uploading.html" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/eee9245c-7b40-4815-a2c4-09003e7f5ab5/console_1.sql" />
         <option value="$PROJECT_DIR$/templates/uploader.html" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
   </component>
@@ -210,8 +239,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="46" />
-    <option name="y" value="206" />
+    <option name="x" value="45" />
+    <option name="y" value="205" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
@@ -220,18 +249,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="file_upload_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="file_upload_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="file_upload_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="file_upload_api" type="462c0819:PsiDirectoryNode" />
+              <item name="upload_folder" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,7 +274,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="GenericSQL&#10;MySQL&#10;SQLite&#10;ClickHouse" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/database.db" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
@@ -300,12 +334,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30604026" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16107382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5106383" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44680852" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -315,13 +349,13 @@
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.69078016" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.54184395" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.54184395" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.36040267" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.1818792" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2872483" />
@@ -382,33 +416,65 @@
     <entry file="file://$PROJECT_DIR$/upload_folder/IMG_20180930_181808.jpg" />
     <entry file="file://$PROJECT_DIR$/upload_folder/IMG_20180930_125046.jpg" />
     <entry file="file://$PROJECT_DIR$/upload_folder/Parent_Consent_Form_.jpg" />
-    <entry file="das://eee9245c-7b40-4815-a2c4-09003e7f5ab5/schema/main/table/uploads">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://eee9245c-7b40-4815-a2c4-09003e7f5ab5/schema/main/table/uploads" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/eee9245c-7b40-4815-a2c4-09003e7f5ab5/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/eee9245c-7b40-4815-a2c4-09003e7f5ab5/console_1.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/upload_folder/vsriram2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/uploader.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="40" column="66" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database.db">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload_folder/vsriram2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-424" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/uploader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="40" column="66" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload_folder/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-131">
+          <caret line="72" column="32" lean-forward="true" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1608477026107" expanded="true" signature="514:563" ph="..." />
+            <marker date="1608477026107" expanded="true" signature="2462:2463" ph="..." />
+            <marker date="1608477026107" expanded="true" signature="2462:2467" ph="..." />
+            <marker date="1608477026107" expanded="true" signature="2812:2814" ph="..." />
+            <marker date="1608477026107" expanded="true" signature="3121:3122" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -419,34 +485,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1608469436942" expanded="true" signature="493:542" ph="..." />
-            <marker date="1608469436942" expanded="true" signature="2623:2624" ph="..." />
-            <marker date="1608469436942" expanded="true" signature="2623:2628" ph="..." />
-            <marker date="1608469436942" expanded="true" signature="3003:3005" ph="..." />
-            <marker date="1608469436942" expanded="true" signature="3312:3313" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/upload_folder/OFL.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

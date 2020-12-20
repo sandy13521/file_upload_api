@@ -4,11 +4,11 @@ import sqlite3
 import threading
 import time
 
-from flask import Flask, render_template, request, make_response, g
+from flask import Flask, render_template, request, make_response, g, redirect
 from werkzeug.utils import secure_filename
 
 data = {}
-upload_folder = 'F:/myPrograms/Python/task/upload_folder'
+upload_folder = 'F:/myPrograms/Python/file_upload_api/upload_folder'
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = upload_folder
@@ -48,33 +48,31 @@ def upload():
         threading.Thread(target=start_processing_the_uploaded_file, args=(file.filename,)).start()
         g.db.commit()
         data[file.filename] = {'name': file.filename, 'active': "ACTIVE"}
-        return render_template('uploader.html', data=data)
+        return redirect('/')
     except OSError:
         log.exception('Could not write to file')
-        return render_template('uploader.html', data=data)
+        return redirect('/')
     except StopIteration:
-        return render_template('uploader.html', data=data)
+        return redirect('/')
 
 
 @app.route('/upload/pause/<name>', methods=['GET'])
 def pause_upload(name):
     g.db.execute("UPDATE processingUploads set status='PAUSED' where name=?", (name,))
-    print(name)
     data[name]['active'] = "PAUSED"
     g.db.commit()
-    return render_template('uploader.html', data=data)
+    return redirect('/')
 
 
 @app.route('/upload/resume/<name>', methods=['GET', ])
 def resume_upload(name):
     g.db.execute("UPDATE processingUploads set status='ACTIVE' where name=?", (name,))
-    print(name)
     g.db.commit()
     data[name]['active'] = 'ACTIVE'
     start_from = g.db.execute("SELECT line_processed from processingUploads where name=?", (name,))
     x = start_from.fetchone()[0]
     threading.Thread(target=start_processing_the_uploaded_file, args=(name, x + 1)).start()
-    return render_template('uploader.html', data=data)
+    return redirect('/')
 
 
 @app.route('/upload/cancel/<name>', methods=['GET', 'POST'])
@@ -82,7 +80,7 @@ def cancel_upload(name):
     g.db.execute("UPDATE processingUploads set status='CANCELLED' where name=?", (name,))
     data[name]['active'] = "CANCELLED"
     g.db.commit()
-    return render_template('uploader.html', data=data)
+    return redirect('/')
 
 
 def read_in_chunks(file_object, chunk_size=1024):
@@ -109,13 +107,13 @@ def start_processing_the_uploaded_file(file_name, start=0):
             time.sleep(1)
             res = conn.execute(sql_query, (file_name,))
             r = res.fetchone()[0]
-            print(r)
             conn.execute(update_query, (i, file_name))
             conn.commit()
             if r == "PAUSED" or r == "CANCELLED":
                 break
             if i == len(lines) - 1:
-                conn.execute("UPDATE processingUploads set status='COMPLETE' where name=?", (file_name))
+                conn.execute("UPDATE processingUploads set status='COMPLETE' where name=?", (file_name,))
                 conn.commit()
                 data[file_name]['active'] = "COMPLETE"
     conn.close()
+
