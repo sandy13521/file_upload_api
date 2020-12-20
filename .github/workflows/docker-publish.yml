@@ -1,0 +1,22 @@
+name: Docker
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clone
+      uses: actions/checkout@v2
+        
+    - name: Build and Push docker image
+      run: |
+        echo ${{ secrets.DOCKERHUB_PASSWORD }} >> my_password.txt  
+        cat my_password.txt | docker login --username ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
+        docker build -t sandy13521/file_upload_api:latest .
+        docker push sandy13521/file_upload_api:latest
