@@ -16,7 +16,7 @@ ScreenShots -
 ![Alt text](images/upload_processing_started.png?raw=true "Processing in the background.")
 
 
-API ENDPINTS - 
+API ENDPOINTS - 
 - /upload  -  Uploads the file to server and starts a background thread to process.
 - /upload/pause - Pauses the background task.
 - /upload/cancel - Cancels/Terminates the background task.
